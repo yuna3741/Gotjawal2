@@ -1,0 +1,411 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+figure {
+    width: fit-content;
+    height: fit-content;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 16px;
+}
+
+header {
+    background-image: url(../img/page02_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+    height: 112vh;
+    margin-bottom: 138px;
+}
+
+
+header .menu {
+    max-width: 100%;
+    padding: 0 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header .menu p {
+    font-size: 22px;
+    color: #fff;
+}
+
+header .textbox {
+    position: absolute;
+    color: #fff;
+    bottom: 230px;
+    left: 160px;
+}
+
+header .textbox h2 {
+    font-size: 2.6vw;
+    margin-bottom: 24px;
+    max-width: 18.3vw;
+    height: 8vh;
+    background-color: #4B410B;
+    line-height: 8vh;
+}
+
+header .textbox p {
+    font-size: 1vw;
+    line-height: 2.6;
+}
+
+header .textbox .hid{
+    display: none;
+}
+
+
+aside{
+  max-width: 100%;
+    
+    margin:auto;
+}
+
+aside h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+aside table{
+    border-collapse:collapse;
+    border: 1px solid #ccc;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+aside table td{
+    border: 1px solid #ccc;
+    width: 280px;
+    height: 70px;
+    font-size: 1.7vw;
+    text-align: center;
+    line-height: 70px;
+    color: #4B410B;
+}
+
+
+.s_1 {
+    
+   max-width: 100%;
+    margin:auto;
+}
+
+.s_1 h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.s_1 table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin:auto;
+    margin-bottom: 100px;
+
+}
+
+.s_1 table td {
+    border: 1px solid #ccc;
+    width: 280px;
+    height: 70px;
+    font-size: 1.7vw;
+    text-align: center;
+    line-height: 70px;
+    color: #4B410B;
+}
+
+.s_1 table tr .re:hover{
+color: #9FC016;
+}
+
+/*footer*/
+footer {
+    width: 100%;
+    height: 35vh;
+    background-color: #4B410B;
+    color: #fff;
+    position: relative;
+    margin-top: 194px;
+}
+
+footer .icon {
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+    right: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+
+footer .icon figure:not(:last-child) {
+    margin-right: 70px;
+}
+
+footer .textbox {
+    max-width: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+
+}
+
+footer .textbox ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer .textbox ul li:not(:last-child) {
+    margin-right: 3px;
+}
+
+footer .textbox ul li:not(:last-child)::after {
+    content: '|';
+}
+
+/*//footer*/
+
+@media screen and (max-width:1405px) {
+    .s_1{
+        padding: 0 80px;
+    }
+
+    aside{
+        padding: 0 80px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    header .textbox h2 {
+        font-size: 2.6vw;
+        margin-bottom: 24px;
+        height: 6vh;
+        line-height: 6vh;
+    }
+
+    
+}
+
+@media screen and (max-width:1200px) {
+
+    /*header*/
+
+    header {
+
+        height: 100vh;
+
+    }
+
+    header .menu h1 {
+        font-size: 22px;
+    }
+
+    header .menu p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    header .textbox {
+        position: absolute;
+        color: #fff;
+        bottom: 80px;
+        left: 80px;
+    }
+
+    header .textbox h2 {
+        font-size: 30px;
+        max-width: 210px;
+
+    }
+
+    header .textbox p {
+        font-size: 12px;
+        line-height: 2.6;
+    }
+
+    /*//header*/
+
+    .s_1{
+        padding: 0 50px;
+    }
+
+    aside{
+        padding: 0 50px;
+    }
+
+
+
+    footer .icon {
+        position: static;
+        margin: 0 auto;
+        padding-top: 50px;
+
+    }
+
+    footer .textbox {
+        position: static;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    footer .textbox ul {
+        display: inline-block;
+        margin: auto;
+        
+
+
+    }
+
+    footer .textbox ul li{
+        line-height: 1.5;
+    }
+
+    footer .textbox ul li:not(:last-child)::after {
+        content: '';
+    }
+}
+
+@media screen and (max-width:1024px) {
+    footer .icon {
+        max-width: 300px;
+
+    }
+
+
+    footer .textbox ul li {
+        line-height: 1.5;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    footer .textbox ul li {
+        font-size: 2vw;
+    }
+
+    footer {
+        height: 250px;
+    }
+
+    aside table td{
+        font-size: 12px;
+       
+    }
+
+    aside h3{
+        font-size: 4vw;
+    }
+
+    .s_1 h3{
+        font-size: 4vw;
+    }
+
+    .s_1 table td{
+        font-size: 12px;
+        
+    }
+
+    .s_1{
+        padding: 0 20px;
+    }
+
+    aside{
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header{
+        background-image: url(../img/page02_mo.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 90vh;
+    }
+    
+    header .textbox h2{
+        display: none;
+    }
+
+    header .textbox p{
+        display: none;
+    }
+    header .textbox .hid{
+        display: block;
+        max-width: 40vw;
+        height: 6vh;
+        background-color: #4B410B;
+        line-height: 6vh;
+        font-size: 5vw;
+
+    }
+
+    header .textbox {
+        position: absolute;
+        color: #fff;
+        bottom: 50px;
+        left: 50px;
+    
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    footer .textbox ul li {
+        font-size: 12px;
+    }
+
+    header .menu h1{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    header .menu p{
+        display: none;
+    }
+}
