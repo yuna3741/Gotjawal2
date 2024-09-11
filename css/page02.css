@@ -47,6 +47,7 @@ header {
     background-size: cover;
     position: relative;
     max-width: 100%;
+    width: 100%;
     height: 112vh;
     margin-bottom: 138px;
 }
@@ -74,21 +75,21 @@ header .menu p {
 header .textbox {
     position: absolute;
     color: #fff;
-    bottom: 230px;
+    bottom: 190px;
     left: 160px;
 }
 
 header .textbox h2 {
-    font-size: 2.6vw;
+    font-size: 50px;
     margin-bottom: 24px;
-    max-width: 18.3vw;
-    height: 8vh;
+    max-width: 360px;
+    height: 72px;
     background-color: #4B410B;
-    line-height: 8vh;
+    line-height: 72px;
 }
 
 header .textbox p {
-    font-size: 1vw;
+    font-size: 20px;
     line-height: 2.6;
 }
 
@@ -106,6 +107,7 @@ aside{
 aside h3{
     text-align: center;
     margin-bottom: 50px;
+    
 }
 
 aside table{
@@ -119,7 +121,7 @@ aside table td{
     border: 1px solid #ccc;
     width: 280px;
     height: 70px;
-    font-size: 1.7vw;
+    font-size: 30px;
     text-align: center;
     line-height: 70px;
     color: #4B410B;
@@ -135,6 +137,7 @@ aside table td{
 .s_1 h3 {
     text-align: center;
     margin-bottom: 50px;
+    
 }
 
 .s_1 table {
@@ -149,7 +152,7 @@ aside table td{
     border: 1px solid #ccc;
     width: 280px;
     height: 70px;
-    font-size: 1.7vw;
+    font-size: 30px;
     text-align: center;
     line-height: 70px;
     color: #4B410B;
@@ -170,7 +173,7 @@ footer {
 }
 
 footer .icon {
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     position: absolute;
     right: 100px;
@@ -180,10 +183,6 @@ footer .icon {
 
 }
 
-
-footer .icon figure:not(:last-child) {
-    margin-right: 70px;
-}
 
 footer .textbox {
     max-width: 100%;
@@ -221,10 +220,15 @@ footer .textbox ul li:not(:last-child)::after {
 
 @media screen and (max-width:1400px) {
     header .textbox h2 {
-        font-size: 2.6vw;
+        font-size: 40px;
+        max-width: 280px;
         margin-bottom: 24px;
-        height: 6vh;
-        line-height: 6vh;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    header .textbox p {
+        font-size: 16px;
     }
 
     
@@ -324,7 +328,7 @@ footer .textbox ul li:not(:last-child)::after {
 
 @media screen and (max-width:800px) {
     footer .textbox ul li {
-        font-size: 2vw;
+        font-size: 16px;
     }
 
     footer {
@@ -332,20 +336,20 @@ footer .textbox ul li:not(:last-child)::after {
     }
 
     aside table td{
-        font-size: 12px;
+        font-size: 20px;
        
     }
 
     aside h3{
-        font-size: 4vw;
+        font-size: 25px;
     }
 
     .s_1 h3{
-        font-size: 4vw;
+        font-size: 25px;
     }
 
     .s_1 table td{
-        font-size: 12px;
+        font-size: 20px;
         
     }
 
@@ -377,11 +381,11 @@ footer .textbox ul li:not(:last-child)::after {
     }
     header .textbox .hid{
         display: block;
-        max-width: 40vw;
-        height: 6vh;
+        max-width: 240px;
+        height: 40px;
         background-color: #4B410B;
-        line-height: 6vh;
-        font-size: 5vw;
+        line-height: 40px;
+        font-size: 30px;
 
     }
 
@@ -407,5 +411,13 @@ footer .textbox ul li:not(:last-child)::after {
 
     header .menu p{
         display: none;
+    }
+
+    .s_1 table tr td{
+        font-size: 16px;
+    }
+
+    aside table tr td{
+        font-size: 16px;
     }
 }

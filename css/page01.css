@@ -24,9 +24,10 @@ figure {
     height: fit-content;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
+
 h2 {
     font-size: 50px;
 }
@@ -58,7 +59,7 @@ header .menu h1 {
 
 header .menu p {
     font-size: 22px;
-   
+
 }
 
 .s_1 {
@@ -103,13 +104,13 @@ header .menu p {
     color: #4B410B;
 }
 
-.s_1 .s_inner .allbox .box figure:hover{
-    
+.s_1 .s_inner .allbox .box figure:hover {
+
     overflow: hidden;
-   border-radius: 10px;
+    border-radius: 10px;
 }
 
-.s_1 .s_inner .allbox .box img:hover{
+.s_1 .s_inner .allbox .box img:hover {
     scale: 1.1 1.1;
     overflow: hidden;
     transition: .4s;
@@ -126,7 +127,7 @@ footer {
 }
 
 footer .icon {
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     position: absolute;
     right: 100px;
@@ -137,9 +138,6 @@ footer .icon {
 }
 
 
-footer .icon figure:not(:last-child) {
-    margin-right: 70px;
-}
 
 footer .textbox {
     max-width: 100%;
@@ -175,15 +173,16 @@ footer .textbox ul li:not(:last-child)::after {
 
     }
 
-    
+
 
 }
 
 @media screen and (max-width:1200px) {
-    header .menu h1{
+    header .menu h1 {
         font-size: 22px;
     }
-    header .menu p{
+
+    header .menu p {
         font-size: 18px;
     }
 
@@ -204,19 +203,19 @@ footer .textbox ul li:not(:last-child)::after {
     footer .textbox ul {
         display: inline-block;
         margin: auto;
-        
+
 
 
     }
 
-    footer .textbox ul li{
+    footer .textbox ul li {
         line-height: 1.5;
     }
 
     footer .textbox ul li:not(:last-child)::after {
         content: '';
     }
-    
+
 }
 
 
@@ -230,9 +229,6 @@ footer .textbox ul li:not(:last-child)::after {
 
     }
 
-    .s_1 .s_inner .allbox .box p{
-        font-size: 2vw;
-    }
 
     footer .icon {
         max-width: 300px;
@@ -261,46 +257,46 @@ footer .textbox ul li:not(:last-child)::after {
     }
 
 
-    .s_1 .s_inner h2{
-        font-size: 5vw;
+    .s_1 .s_inner h2 {
+        font-size: 40px;
     }
 
     footer .textbox ul li {
-        font-size: 2vw;
+        font-size: 16px;
     }
 
     footer {
         height: 250px;
     }
 
-    
+
 }
 
-@media screen and (max-width:575px){
+@media screen and (max-width:575px) {
 
-    header .menu p{
+    header .menu p {
         display: none;
     }
 
-    header .menu h1{
+    header .menu h1 {
         font-size: 18px;
         margin: auto;
     }
 
-    .s_1 .s_inner h2{
-        font-size: 28px;
+    .s_1 .s_inner h2 {
+        font-size: 30px;
     }
 
     .s_1 .s_inner .allbox {
 
         grid-template-columns: 43% 43%;
         gap: 30px 16px;
-        padding:0px;
+        padding: 0px;
         place-content: center;
 
     }
 
-    .s_1 .s_inner .allbox .box p{
+    .s_1 .s_inner .allbox .box p {
         font-size: 12px;
     }
 
